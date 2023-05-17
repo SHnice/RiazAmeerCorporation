@@ -13,7 +13,7 @@ export default function NavBar() {
   <div class="container flex flex-wrap items-center justify-between mx-auto">
   <a href="https://flowbite.com/" class="flex items-center">
       <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-      <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Flowbite</span>
+      <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Riaz Ameer</span>
   </a>
   <div class="flex items-center md:order-2">
     {isuser ? <button type="button" onClick={()=>usermenu ? setUsermenu(false):setUsermenu(true)} class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
